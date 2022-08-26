@@ -1,38 +1,120 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(216, 12%, 8%);
+  /* min-height: 100vh; */
+}
+
+.background{
+  color: aliceblue;
+}
+.star{
+  width: 2rem;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  height: 2rem;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #343738;
+}
+.cardBackground{
+  background-color:#20272F;
+  width: 80%;
+  
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 35%;
+}
+.feedbackQuest{
+  background-color:#20272F;
+  margin-bottom: 1rem;
+  font-family: 'Overpass', sans-serif;
+}
+.feedBack{
+    background-color:#20272F;
+    margin-bottom: 1rem;
+    font-family: 'Overpass', sans-serif;
+}
+.ratingNumbers{
+ background-color:#20272F;
+ display: flex;
+ gap: 1rem;
+}
+.ratingIndividual{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color:hsl(217, 12%, 63%) ;
+  background-color: #343738;
+ 
+}
+.changeSecondColor{
+  background-color: #398ae7;
+}
+.changeColor{
+  background-color: hsl(25, 97%, 53%);;
+}
+.submitButton{
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 3rem;
+  width: 100%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  color: hsl(0, 0%, 100%);
+}
+.welcomeCard{
   color: white;
+  background-color: #20272F;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: 30%;
+  height: 60vh;
 }
+.welcomeImage{
+    background-color: #20272F;
+    margin-top: 2rem;
 
-.App-link {
-  color: #61dafb;
 }
+main{
+  padding: 1rem;
+}
+.choice{
+  background-color: #343b43;
+  color: hsl(25, 97%, 53%);
+  border-radius: 2rem;
+  width: 12rem;
+  height: 2rem;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+}
+.thanks{
+  background-color: #20272F;
+  margin-top: 1rem;
+  font-family: 'Overpass', sans-serif;
+}
+.article{
+  background-color: #20272F;
+  margin-top: 1rem;
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.7rem;
+  font-size: 15px;
+}
+@media screen and (min-width:1439px) {
+  .cardBackground{
+    height: 40rem;
+    width: 50%;
   }
 }
